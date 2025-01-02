@@ -1,0 +1,61 @@
+{
+    "id": "chatcmpl-AlE1viBj4GJ047f45tULjF9csWkaW",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":4,\"explanation\":\"모델의 답변은 질문과 관련이 있지만, 검은 땡땡이의 실제 목적에 대한 잘못된 정보를 포함하고 있어 전반적인 관련성이 떨어짐.\"},\"accuracy\":{\"score\":2,\"explanation\":\"모델의 설명은 잘못된 정보에 기초하고 있으며, 검은 땡땡이가 실제로 가지는 역할을 정확히 설명하지 못함.\"},\"completeness\":{\"score\":3,\"explanation\":\"모델의 답변은 주제에 대한 정보가 부족하고, 검은 땡땡이의 기능에 대한 설명이 필요하다.\"},\"clarity\":{\"score\":5,\"explanation\":\"모델의 답변은 명확하게 쓰여졌으나, 잘못된 정보로 혼동을 초래할 수 있음.\"},\"similarity\":{\"score\":2,\"explanation\":\"모델의 답변은 참조 답변과 주제가 다르고, 관련된 내용이 거의 없으므로 유사성이 낮음.\"},\"average_score\":3.2}",
+                "refusal": null,
+                "role": "assistant",
+                "audio": null,
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 질문과 관련이 있지만, 검은 땡땡이의 실제 목적에 대한 잘못된 정보를 포함하고 있어 전반적인 관련성이 떨어짐."
+                    },
+                    "accuracy": {
+                        "score": 2,
+                        "explanation": "모델의 설명은 잘못된 정보에 기초하고 있으며, 검은 땡땡이가 실제로 가지는 역할을 정확히 설명하지 못함."
+                    },
+                    "completeness": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 주제에 대한 정보가 부족하고, 검은 땡땡이의 기능에 대한 설명이 필요하다."
+                    },
+                    "clarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 명확하게 쓰여졌으나, 잘못된 정보로 혼동을 초래할 수 있음."
+                    },
+                    "similarity": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 참조 답변과 주제가 다르고, 관련된 내용이 거의 없으므로 유사성이 낮음."
+                    },
+                    "average_score": 3.2
+                }
+            }
+        }
+    ],
+    "created": 1735818711,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_0aa8d3e20b",
+    "usage": {
+        "completion_tokens": 234,
+        "prompt_tokens": 689,
+        "total_tokens": 923,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    }
+}

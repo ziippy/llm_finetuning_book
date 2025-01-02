@@ -1,0 +1,61 @@
+{
+    "id": "chatcmpl-AlE1qHknrBMzp3BhS5kYAbSqUV01r",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":6,\"explanation\":\"모델의 답변은 휘핑크림의 종류와 제조 방법에 대한 정보를 제공하지만, 질문에서 요구하는 맛과 질감의 차이에 대한 설명이 부족하다.\"},\"accuracy\":{\"score\":5,\"explanation\":\"모델은 저지방과 고지방 휘핑크림의 차이에 대해 언급했지만, 이는 사실과 다르며 잘못된 정보가 포함되어 있다.\"},\"completeness\":{\"score\":4,\"explanation\":\"모델의 답변은 기본적인 정보는 제공하지만, 질문에 요구된 내용(왜 맛과 질감이 다르며 부드러운 휘핑크림을 만드는 방법)에 대한 설명이 불충분하다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 전체적으로 이해하기 쉬운 구조이지만, 몇몇 문장이 모호한 부분이 있다.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델의 답변은 참조 답변과 주제는 유사하나, 제시된 정보의 내용이 다르고 일관성이 부족하다.\"},\"average_score\":5.2}",
+                "refusal": null,
+                "role": "assistant",
+                "audio": null,
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 휘핑크림의 종류와 제조 방법에 대한 정보를 제공하지만, 질문에서 요구하는 맛과 질감의 차이에 대한 설명이 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 5,
+                        "explanation": "모델은 저지방과 고지방 휘핑크림의 차이에 대해 언급했지만, 이는 사실과 다르며 잘못된 정보가 포함되어 있다."
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 기본적인 정보는 제공하지만, 질문에 요구된 내용(왜 맛과 질감이 다르며 부드러운 휘핑크림을 만드는 방법)에 대한 설명이 불충분하다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 전체적으로 이해하기 쉬운 구조이지만, 몇몇 문장이 모호한 부분이 있다."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 참조 답변과 주제는 유사하나, 제시된 정보의 내용이 다르고 일관성이 부족하다."
+                    },
+                    "average_score": 5.2
+                }
+            }
+        }
+    ],
+    "created": 1735818706,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_0aa8d3e20b",
+    "usage": {
+        "completion_tokens": 251,
+        "prompt_tokens": 1077,
+        "total_tokens": 1328,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "id": "chatcmpl-AlE1qMRvqbgeLBTUr0Zkr6VVmAqtP",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":3,\"explanation\":\"모델의 답변은 말괄량이 '삐삐'의 나이에 대해 다루지 않고, 특정 연도(2002년)의 말괄량이 나이에 대한 정보만 제공하므로 질문과 관련성이 낮다.\"},\"accuracy\":{\"score\":1,\"explanation\":\"모델의 답변은 사실이 아니며, 말괄량이 삐삐의 나이를 잘못 계산하고 잘못된 정보를 제공한다. 실제로는 인물의 생년월일을 기준으로 계산해야 했기 때문이다.\"},\"completeness\":{\"score\":2,\"explanation\":\"모델의 답변은 단순히 2002년의 말괄량이 나이에 대한 정보만 포함하고 있으며, 현재 나이에 대한 정보가 전혀 없어서 불완전하다.\"},\"clarity\":{\"score\":5,\"explanation\":\"모델의 답변은 문장 구조가 간단하여 이해하기 쉬운 편이지만, 오해의 소지가 있을 수 있다.\"},\"similarity\":{\"score\":2,\"explanation\":\"모델의 답변은 사실상 주제와도 다르고, 참조 답변과 거의 이어지지 않아서 유사성이 매우 낮다.\"},\"average_score\":2.6}",
+                "refusal": null,
+                "role": "assistant",
+                "audio": null,
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 말괄량이 '삐삐'의 나이에 대해 다루지 않고, 특정 연도(2002년)의 말괄량이 나이에 대한 정보만 제공하므로 질문과 관련성이 낮다."
+                    },
+                    "accuracy": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 사실이 아니며, 말괄량이 삐삐의 나이를 잘못 계산하고 잘못된 정보를 제공한다. 실제로는 인물의 생년월일을 기준으로 계산해야 했기 때문이다."
+                    },
+                    "completeness": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 단순히 2002년의 말괄량이 나이에 대한 정보만 포함하고 있으며, 현재 나이에 대한 정보가 전혀 없어서 불완전하다."
+                    },
+                    "clarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 문장 구조가 간단하여 이해하기 쉬운 편이지만, 오해의 소지가 있을 수 있다."
+                    },
+                    "similarity": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 사실상 주제와도 다르고, 참조 답변과 거의 이어지지 않아서 유사성이 매우 낮다."
+                    },
+                    "average_score": 2.6
+                }
+            }
+        }
+    ],
+    "created": 1735818706,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_0aa8d3e20b",
+    "usage": {
+        "completion_tokens": 277,
+        "prompt_tokens": 566,
+        "total_tokens": 843,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    }
+}

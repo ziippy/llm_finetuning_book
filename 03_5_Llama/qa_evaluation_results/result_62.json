@@ -1,0 +1,61 @@
+{
+    "id": "chatcmpl-AlE1sDBo1lavzPlJK4n5bRxdG90uL",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":7,\"explanation\":\"모델의 답변은 북한의 라면 문화와 관련된 내용을 다루고 있지만, 질문의 주제인 라면의 제조 및 수입 여부에 대한 직접적인 답변을 다루지 않아 다소 부족하다.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델의 답변은 북한의 라면 제조에 대한 일부 사실을 포함하고 있지만, 일부 정보가 잘못되었거나 부정확한 점이 있다. 예를 들어, 북한의 라면 종류나 제조 과정에 대한 정보가 부족하다.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델의 답변은 북한에서 라면을 어떻게 섭취하는지에 대한 정보는 포함되어 있지만, 수입 여부나 제조 과정에 대한 자세한 설명이 부족하여 질문에 대한 포괄적인 답을 제공하지 않는다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 전반적으로 이해하기 쉽게 작성되었지만, 일부 주제에 대한 설명이 약간 혼란스러울 수 있다.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델의 답변은 참조 답변의 특정 세부 사항과는 관련이 적고, 서로 다루는 측면도 다르다. 따라서 두 답변의 유사성은 낮다.\"},\"average_score\":6}",
+                "refusal": null,
+                "role": "assistant",
+                "audio": null,
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 북한의 라면 문화와 관련된 내용을 다루고 있지만, 질문의 주제인 라면의 제조 및 수입 여부에 대한 직접적인 답변을 다루지 않아 다소 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 북한의 라면 제조에 대한 일부 사실을 포함하고 있지만, 일부 정보가 잘못되었거나 부정확한 점이 있다. 예를 들어, 북한의 라면 종류나 제조 과정에 대한 정보가 부족하다."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 북한에서 라면을 어떻게 섭취하는지에 대한 정보는 포함되어 있지만, 수입 여부나 제조 과정에 대한 자세한 설명이 부족하여 질문에 대한 포괄적인 답을 제공하지 않는다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 전반적으로 이해하기 쉽게 작성되었지만, 일부 주제에 대한 설명이 약간 혼란스러울 수 있다."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 참조 답변의 특정 세부 사항과는 관련이 적고, 서로 다루는 측면도 다르다. 따라서 두 답변의 유사성은 낮다."
+                    },
+                    "average_score": 6.0
+                }
+            }
+        }
+    ],
+    "created": 1735818708,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_0aa8d3e20b",
+    "usage": {
+        "completion_tokens": 297,
+        "prompt_tokens": 720,
+        "total_tokens": 1017,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    }
+}

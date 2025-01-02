@@ -1,0 +1,61 @@
+{
+    "id": "chatcmpl-AlE1qPp7tCNRJLiuiKYcg4fKI8y5R",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 중세 베트남 군대의 전술과 전투력에 대한 정보를 제공하였고, 외적과의 전쟁에서의 성과를 언급했으나, 질문에 대한 답변이 다소 일반적이다.\"},\"accuracy\":{\"score\":5,\"explanation\":\"모델은 '1000년 전설의 무인군대'와 '르네상스 시대'와 같은 잘못된 시대적 정보를 언급하며 정확성이 떨어진다. 참조 답변에 비해 세부 사항이 부족하다.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델의 답변이 전투력과 전술에 대해 간단히 설명하였으나, 더 상세하고 구체적인 정보가 없어 완전성이 낮다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 표현은 대체로 명확하나, 일부 문장은 혼란스러울 수 있어 이해를 어렵게 하는 요소가 있다.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델의 답변은 참조 답변과 주제는 유사하지만, 내용적으로 상이하여 유사성이 낮다.\"},\"average_score\":6.0}",
+                "refusal": null,
+                "role": "assistant",
+                "audio": null,
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 중세 베트남 군대의 전술과 전투력에 대한 정보를 제공하였고, 외적과의 전쟁에서의 성과를 언급했으나, 질문에 대한 답변이 다소 일반적이다."
+                    },
+                    "accuracy": {
+                        "score": 5,
+                        "explanation": "모델은 '1000년 전설의 무인군대'와 '르네상스 시대'와 같은 잘못된 시대적 정보를 언급하며 정확성이 떨어진다. 참조 답변에 비해 세부 사항이 부족하다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델의 답변이 전투력과 전술에 대해 간단히 설명하였으나, 더 상세하고 구체적인 정보가 없어 완전성이 낮다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 표현은 대체로 명확하나, 일부 문장은 혼란스러울 수 있어 이해를 어렵게 하는 요소가 있다."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 참조 답변과 주제는 유사하지만, 내용적으로 상이하여 유사성이 낮다."
+                    },
+                    "average_score": 6.0
+                }
+            }
+        }
+    ],
+    "created": 1735818706,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_0aa8d3e20b",
+    "usage": {
+        "completion_tokens": 274,
+        "prompt_tokens": 672,
+        "total_tokens": 946,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    }
+}

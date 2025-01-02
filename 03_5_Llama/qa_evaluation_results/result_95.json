@@ -1,0 +1,61 @@
+{
+    "id": "chatcmpl-AlE1vf1YqbqmC5Rtx6zS38kUfYHrC",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":3,\"explanation\":\"모델의 답변은 세느강의 다리 수에 대해 잘못된 수치를 제공하고, 유명한 다리의 수와 이름도 부정확하다.\"},\"accuracy\":{\"score\":2,\"explanation\":\"모델이 제공한 정보는 역사적 맥락이 잘못되었고, 많은 기술적 문제 등은 사실이 아니다. 다리 이름과 수 역시 잘못되었다.\"},\"completeness\":{\"score\":4,\"explanation\":\"모델이 언급한 다리와 유명한 다리 목록은 매우 제한적이며, 반면 참조 답변은 더 많은 정보를 포함하고 있다.\"},\"clarity\":{\"score\":5,\"explanation\":\"모델의 답변은 기본적으로 이해하기 쉬운 구조를 가지고 있지만, 내용이 부정확하여 혼란스러울 수 있다.\"},\"similarity\":{\"score\":2,\"explanation\":\"모델의 답변은 참조 답변과 비교해 정보가 매우 다르고, 사용된 다리의 이름도 크게 다르다.\"},\"average_score\":3.2}",
+                "refusal": null,
+                "role": "assistant",
+                "audio": null,
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 세느강의 다리 수에 대해 잘못된 수치를 제공하고, 유명한 다리의 수와 이름도 부정확하다."
+                    },
+                    "accuracy": {
+                        "score": 2,
+                        "explanation": "모델이 제공한 정보는 역사적 맥락이 잘못되었고, 많은 기술적 문제 등은 사실이 아니다. 다리 이름과 수 역시 잘못되었다."
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "explanation": "모델이 언급한 다리와 유명한 다리 목록은 매우 제한적이며, 반면 참조 답변은 더 많은 정보를 포함하고 있다."
+                    },
+                    "clarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 기본적으로 이해하기 쉬운 구조를 가지고 있지만, 내용이 부정확하여 혼란스러울 수 있다."
+                    },
+                    "similarity": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 참조 답변과 비교해 정보가 매우 다르고, 사용된 다리의 이름도 크게 다르다."
+                    },
+                    "average_score": 3.2
+                }
+            }
+        }
+    ],
+    "created": 1735818711,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_0aa8d3e20b",
+    "usage": {
+        "completion_tokens": 237,
+        "prompt_tokens": 746,
+        "total_tokens": 983,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    }
+}

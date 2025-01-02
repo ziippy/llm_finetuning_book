@@ -1,0 +1,61 @@
+{
+    "id": "chatcmpl-AlE1sYQ2nvSWeqvLgeWSelFMsspHb",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":2,\"explanation\":\"모델의 답변은 질문에 언급된 달에 토끼가 그려진 민화와 관련된 내용이 아닌, 윤봉길 선생님과 관련된 이야기로 편향되어 있다.\"},\"accuracy\":{\"score\":2,\"explanation\":\"모델의 답변은 역사적 사실과 관련이 없는 내용을 포함하고 있으며, 달과 토끼의 상징성에 대한 정확한 정보를 제공하지 않는다.\"},\"completeness\":{\"score\":3,\"explanation\":\"모델의 답변이 질문에 포함된 특정 상징성이나 의미에 대해 다루지 않아서 충분한 정보가 부족하다.\"},\"clarity\":{\"score\":5,\"explanation\":\"모델의 답변은 문법적으로는 괜찮으나, 내용의 방향성이 잘못되어 혼란을 초래할 수 있다.\"},\"similarity\":{\"score\":2,\"explanation\":\"모델의 답변은 참조 답변에서 다루어진 핵심 주제들과 의미가 상당히 다르기 때문에 유사성이 매우 낮다.\"},\"average_score\":2.8}",
+                "refusal": null,
+                "role": "assistant",
+                "audio": null,
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 질문에 언급된 달에 토끼가 그려진 민화와 관련된 내용이 아닌, 윤봉길 선생님과 관련된 이야기로 편향되어 있다."
+                    },
+                    "accuracy": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 역사적 사실과 관련이 없는 내용을 포함하고 있으며, 달과 토끼의 상징성에 대한 정확한 정보를 제공하지 않는다."
+                    },
+                    "completeness": {
+                        "score": 3,
+                        "explanation": "모델의 답변이 질문에 포함된 특정 상징성이나 의미에 대해 다루지 않아서 충분한 정보가 부족하다."
+                    },
+                    "clarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 문법적으로는 괜찮으나, 내용의 방향성이 잘못되어 혼란을 초래할 수 있다."
+                    },
+                    "similarity": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 참조 답변에서 다루어진 핵심 주제들과 의미가 상당히 다르기 때문에 유사성이 매우 낮다."
+                    },
+                    "average_score": 2.8
+                }
+            }
+        }
+    ],
+    "created": 1735818708,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_0aa8d3e20b",
+    "usage": {
+        "completion_tokens": 239,
+        "prompt_tokens": 689,
+        "total_tokens": 928,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    }
+}

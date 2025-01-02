@@ -1,0 +1,61 @@
+{
+    "id": "chatcmpl-AlE1qk7bz05uTkd3iDaAWdnJbEvhv",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":3,\"explanation\":\"모델의 답변은 '미러링'과 관련된 정의 대신 차량 안전과 관련된 내용을 담고 있어 질문과 크게 관련이 없다.\"},\"accuracy\":{\"score\":2,\"explanation\":\"모델의 답변은 미러링의 정의를 잘못 언급하고 있으며, 정확한 정보가 없다.\"},\"completeness\":{\"score\":2,\"explanation\":\"모델 답변이 미러링과 미러링 포트에 대한 내용을 제공하지 않아 매우 불완전하다.\"},\"clarity\":{\"score\":5,\"explanation\":\"모델의 내용은 구성적으로 나뉘어 있어 어느 정도 이해는 가능하지만, 주제와 관련이 없기 때문에 전체를 이해하기 어렵다.\"},\"similarity\":{\"score\":1,\"explanation\":\"모델의 답변은 참조 답변과 주제와 내용 모두 다르며 유사성이 거의 없다.\"},\"average_score\":2.6}",
+                "refusal": null,
+                "role": "assistant",
+                "audio": null,
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 '미러링'과 관련된 정의 대신 차량 안전과 관련된 내용을 담고 있어 질문과 크게 관련이 없다."
+                    },
+                    "accuracy": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 미러링의 정의를 잘못 언급하고 있으며, 정확한 정보가 없다."
+                    },
+                    "completeness": {
+                        "score": 2,
+                        "explanation": "모델 답변이 미러링과 미러링 포트에 대한 내용을 제공하지 않아 매우 불완전하다."
+                    },
+                    "clarity": {
+                        "score": 5,
+                        "explanation": "모델의 내용은 구성적으로 나뉘어 있어 어느 정도 이해는 가능하지만, 주제와 관련이 없기 때문에 전체를 이해하기 어렵다."
+                    },
+                    "similarity": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 참조 답변과 주제와 내용 모두 다르며 유사성이 거의 없다."
+                    },
+                    "average_score": 2.6
+                }
+            }
+        }
+    ],
+    "created": 1735818706,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_0aa8d3e20b",
+    "usage": {
+        "completion_tokens": 207,
+        "prompt_tokens": 756,
+        "total_tokens": 963,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    }
+}

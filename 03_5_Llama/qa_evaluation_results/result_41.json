@@ -1,0 +1,61 @@
+{
+    "id": "chatcmpl-AlE1sFkl7t7a0N30tZp5bokTdTdAV",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":9,\"explanation\":\"모델의 답변은 질문에 직접적으로 답변하며 조종실에 낙하산이 없는 이유를 설명하고 있다.\"},\"accuracy\":{\"score\":8,\"explanation\":\"모델의 답변은 기장과 부기장을 포함한 승무원이 낙하산을 사용하지 않는 이유에 대한 정보를 제공하지만, 일부 문장이 모호하거나 불확실한 부분이 있다.\"},\"completeness\":{\"score\":7,\"explanation\":\"모델의 답변은 조종실에 낙하산이 없는 이유를 설명하긴 하지만, 구명조끼와 같은 대체 안전 장비에 대한 언급이 부족하다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 전반적으로 명확하며 이해하기 쉽지만, 일부 문장은 다소 반복적이거나 불필요한 부분이 있다.\"},\"similarity\":{\"score\":6,\"explanation\":\"모델의 답변은 참조 답변의 구조와 스타일에서 일부 차이를 보이지만, 유사한 정보를 제공한다.\"},\"average_score\":7.6}",
+                "refusal": null,
+                "role": "assistant",
+                "audio": null,
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 질문에 직접적으로 답변하며 조종실에 낙하산이 없는 이유를 설명하고 있다."
+                    },
+                    "accuracy": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 기장과 부기장을 포함한 승무원이 낙하산을 사용하지 않는 이유에 대한 정보를 제공하지만, 일부 문장이 모호하거나 불확실한 부분이 있다."
+                    },
+                    "completeness": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 조종실에 낙하산이 없는 이유를 설명하긴 하지만, 구명조끼와 같은 대체 안전 장비에 대한 언급이 부족하다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 전반적으로 명확하며 이해하기 쉽지만, 일부 문장은 다소 반복적이거나 불필요한 부분이 있다."
+                    },
+                    "similarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 참조 답변의 구조와 스타일에서 일부 차이를 보이지만, 유사한 정보를 제공한다."
+                    },
+                    "average_score": 7.6
+                }
+            }
+        }
+    ],
+    "created": 1735818708,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_0aa8d3e20b",
+    "usage": {
+        "completion_tokens": 244,
+        "prompt_tokens": 796,
+        "total_tokens": 1040,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    }
+}

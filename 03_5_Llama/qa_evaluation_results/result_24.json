@@ -1,0 +1,61 @@
+{
+    "id": "chatcmpl-AlE1qEXIAZuOHnQanKnzy8xLcoJAa",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":7,\"explanation\":\"모델의 답변은 무덤을 만들기 시작한 시기와 민간인들의 참여에 대한 이야기로 질문과 관련이 있지만, 세부 자료 및 시기에 대한 내용이 부족하다.\"},\"accuracy\":{\"score\":4,\"explanation\":\"모델의 답변은 역사적 사실이 잘못 기재되어 있으며, 1900년대 초반까지 무덤을 만들지 않았다는 주장은 사실과 다르다.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델의 답변은 무덤과 관련된 문화와 역사적인 배경이 부족하며, 일반화된 시기에 대한 설명이 더 필요하다.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 답변은 기본적으로 이해하기 쉽지만, 잘못된 정보로 인해 혼란을 줄 수 있는 요소가 있다.\"},\"similarity\":{\"score\":3,\"explanation\":\"모델의 답변은 참조 답변과 내용상 큰 차이가 있어 유사성이 낮다.\"},\"average_score\":5.0}",
+                "refusal": null,
+                "role": "assistant",
+                "audio": null,
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 무덤을 만들기 시작한 시기와 민간인들의 참여에 대한 이야기로 질문과 관련이 있지만, 세부 자료 및 시기에 대한 내용이 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 역사적 사실이 잘못 기재되어 있으며, 1900년대 초반까지 무덤을 만들지 않았다는 주장은 사실과 다르다."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 무덤과 관련된 문화와 역사적인 배경이 부족하며, 일반화된 시기에 대한 설명이 더 필요하다."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 기본적으로 이해하기 쉽지만, 잘못된 정보로 인해 혼란을 줄 수 있는 요소가 있다."
+                    },
+                    "similarity": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 참조 답변과 내용상 큰 차이가 있어 유사성이 낮다."
+                    },
+                    "average_score": 5.0
+                }
+            }
+        }
+    ],
+    "created": 1735818706,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_0aa8d3e20b",
+    "usage": {
+        "completion_tokens": 232,
+        "prompt_tokens": 868,
+        "total_tokens": 1100,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    }
+}

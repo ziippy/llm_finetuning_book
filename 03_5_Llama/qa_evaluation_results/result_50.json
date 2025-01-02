@@ -1,0 +1,61 @@
+{
+    "id": "chatcmpl-AlE1sXlw7slrtVAPm0Tsbae7Ex7DZ",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 자동문에 사용되는 센서에 대해 설명하고 있어 질문과 관련이 있지만, 구체적인 센서들에 대한 언급이 부족하다.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델은 적외선 센서와 카메라에 대한 설명을 했으나, 참조 답변에서 언급된 초음파 센서, 리미트 스위치와 같은 다른 중요한 센서를 포함하지 않았다.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델의 답변은 일부 센서에 대해서만 다루고 있어 완전하지 않으며, 다양한 센서의 기능과 역할에 대한 설명이 부족하다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 대체로 명확하지만, 일부 내용은 혼란스러울 수 있어 더 간결하게 표현될 필요가 있다.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델의 답변은 참조 답변과 내용이 크게 달라 대부분의 센서를 다루지 않아 유사성이 낮다.\"},\"average_score\":6.0}",
+                "refusal": null,
+                "role": "assistant",
+                "audio": null,
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 자동문에 사용되는 센서에 대해 설명하고 있어 질문과 관련이 있지만, 구체적인 센서들에 대한 언급이 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델은 적외선 센서와 카메라에 대한 설명을 했으나, 참조 답변에서 언급된 초음파 센서, 리미트 스위치와 같은 다른 중요한 센서를 포함하지 않았다."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 일부 센서에 대해서만 다루고 있어 완전하지 않으며, 다양한 센서의 기능과 역할에 대한 설명이 부족하다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 대체로 명확하지만, 일부 내용은 혼란스러울 수 있어 더 간결하게 표현될 필요가 있다."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 참조 답변과 내용이 크게 달라 대부분의 센서를 다루지 않아 유사성이 낮다."
+                    },
+                    "average_score": 6.0
+                }
+            }
+        }
+    ],
+    "created": 1735818708,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_0aa8d3e20b",
+    "usage": {
+        "completion_tokens": 251,
+        "prompt_tokens": 673,
+        "total_tokens": 924,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    }
+}

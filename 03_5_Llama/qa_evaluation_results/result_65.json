@@ -1,0 +1,61 @@
+{
+    "id": "chatcmpl-AlE1tWtwq2kU5k5nOMFbu0cF7uIPk",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 질문에 대해 직접적으로 관련이 있으며, 러닝 개런티에 대한 현재 상황을 설명하고 있다.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델의 답변은 과거의 상황에 대한 정보가 포함되어 있으나, 기본적인 사실인 러닝 개런티가 없다는 점에 대해서는 문제 제기가 필요하다.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델의 답변은 일부 중요한 정보를 포함하고 있지만, 전체적으로 질문에 대한 포괄적인 설명이 부족하다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 전반적으로 이해하기 쉽지만, 몇몇 표현이 명확하지 않아 해석에 혼란을 줄 수 있다.\"},\"similarity\":{\"score\":6,\"explanation\":\"모델의 답변은 참조 답변과 비슷한 주제를 다루고 있으나, 접근 방식과 내용이 조금 다르다.\"},\"average_score\":6.4}",
+                "refusal": null,
+                "role": "assistant",
+                "audio": null,
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 질문에 대해 직접적으로 관련이 있으며, 러닝 개런티에 대한 현재 상황을 설명하고 있다."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 과거의 상황에 대한 정보가 포함되어 있으나, 기본적인 사실인 러닝 개런티가 없다는 점에 대해서는 문제 제기가 필요하다."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 일부 중요한 정보를 포함하고 있지만, 전체적으로 질문에 대한 포괄적인 설명이 부족하다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 전반적으로 이해하기 쉽지만, 몇몇 표현이 명확하지 않아 해석에 혼란을 줄 수 있다."
+                    },
+                    "similarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 참조 답변과 비슷한 주제를 다루고 있으나, 접근 방식과 내용이 조금 다르다."
+                    },
+                    "average_score": 6.4
+                }
+            }
+        }
+    ],
+    "created": 1735818709,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_0aa8d3e20b",
+    "usage": {
+        "completion_tokens": 225,
+        "prompt_tokens": 634,
+        "total_tokens": 859,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "id": "chatcmpl-AlE1t5cwRjf92LxH7C4ny5oG75BXV",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":7,\"explanation\":\"모델의 답변은 가죽 제품의 냄새 제거 방법에 대해 설명하고 있어 관련성이 높다. 하지만 물세탁에 대한 언급이 없기 때문에 일부 주제가 빠져있다.\"},\"accuracy\":{\"score\":5,\"explanation\":\"모델이 제안한 방법(예: 가죽용 표백제 사용)은 실제로 권장되지 않는 방법이며, 가죽 손상을 초래할 수 있다. 그러므로 정확성이 낮다.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델의 답변은 여러 가지 방법을 제시하지만, 물세탁과 같은 흔히 사용되는 효과적인 방법을 포함하지 않아 포괄성이 떨어진다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 각 방법을 나열하고 설명하지만, 중복되는 내용이 많아 독자가 이해하기 혼란스러울 수 있다.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델의 답변은 참조 답변에 비해 방법의 다양성이 다르며, 접근 방식이 상이하다. 특히 '표백제' 사용은 참조 답변과 크게 다르다.\"},\"average_score\":5.8}",
+                "refusal": null,
+                "role": "assistant",
+                "audio": null,
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 가죽 제품의 냄새 제거 방법에 대해 설명하고 있어 관련성이 높다. 하지만 물세탁에 대한 언급이 없기 때문에 일부 주제가 빠져있다."
+                    },
+                    "accuracy": {
+                        "score": 5,
+                        "explanation": "모델이 제안한 방법(예: 가죽용 표백제 사용)은 실제로 권장되지 않는 방법이며, 가죽 손상을 초래할 수 있다. 그러므로 정확성이 낮다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 여러 가지 방법을 제시하지만, 물세탁과 같은 흔히 사용되는 효과적인 방법을 포함하지 않아 포괄성이 떨어진다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 각 방법을 나열하고 설명하지만, 중복되는 내용이 많아 독자가 이해하기 혼란스러울 수 있다."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 참조 답변에 비해 방법의 다양성이 다르며, 접근 방식이 상이하다. 특히 '표백제' 사용은 참조 답변과 크게 다르다."
+                    },
+                    "average_score": 5.8
+                }
+            }
+        }
+    ],
+    "created": 1735818709,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_0aa8d3e20b",
+    "usage": {
+        "completion_tokens": 271,
+        "prompt_tokens": 932,
+        "total_tokens": 1203,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "id": "chatcmpl-AlE1vp88dTuMHGGTHBQbDj62xO3g8",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":2,\"explanation\":\"모델의 답변은 마시멜로우 개발자와 관련이 없으며, 잘못된 정보에 기반하고 있습니다.\"},\"accuracy\":{\"score\":1,\"explanation\":\"모델의 답변은 사실과 다르며, 마시멜로우 개발자의 정의와 관련된 정확한 정보가 없습니다.\"},\"completeness\":{\"score\":2,\"explanation\":\"모델의 답변은 불완전하며 질문에 대한 적절한 정의나 설명이 결여되어 있습니다.\"},\"clarity\":{\"score\":4,\"explanation\":\"모델의 답변은 어느 정도 명확하게 제공되지만, 잘못된 정보로 인해 혼란을 줄 수 있습니다.\"},\"similarity\":{\"score\":1,\"explanation\":\"모델의 답변은 참조 답변과 전혀 유사하지 않으며, 주제가 완전히 다르기 때문에 유사성이 없습니다.\"},\"average_score\":2.0}",
+                "refusal": null,
+                "role": "assistant",
+                "audio": null,
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 마시멜로우 개발자와 관련이 없으며, 잘못된 정보에 기반하고 있습니다."
+                    },
+                    "accuracy": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 사실과 다르며, 마시멜로우 개발자의 정의와 관련된 정확한 정보가 없습니다."
+                    },
+                    "completeness": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 불완전하며 질문에 대한 적절한 정의나 설명이 결여되어 있습니다."
+                    },
+                    "clarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 어느 정도 명확하게 제공되지만, 잘못된 정보로 인해 혼란을 줄 수 있습니다."
+                    },
+                    "similarity": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 참조 답변과 전혀 유사하지 않으며, 주제가 완전히 다르기 때문에 유사성이 없습니다."
+                    },
+                    "average_score": 2.0
+                }
+            }
+        }
+    ],
+    "created": 1735818711,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_0aa8d3e20b",
+    "usage": {
+        "completion_tokens": 208,
+        "prompt_tokens": 607,
+        "total_tokens": 815,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    }
+}

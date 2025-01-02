@@ -1,0 +1,61 @@
+{
+    "id": "chatcmpl-AlE1vn4lizMpePmyvGYMhMrONe6D1",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":6,\"explanation\":\"모델의 답변은 질문에 대한 기초적인 내용을 다루고 있지만, 자세하게 설명하거나 질문의 모든 측면을 포함하고 있지는 않다.\"},\"accuracy\":{\"score\":4,\"explanation\":\"모델의 답변은 사실과 다소 어긋나 있으며, 온도 변화의 생리학적 원리를 잘 설명하지 못한다.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델의 답변은 두 가지 상황을 다루지만, 각 상황에 대한 깊이 있는 설명이 부족하여 완전하지 않다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 비교적 이해하기 쉽지만, 설명이 불완전하여 일부 명확성이 떨어질 수 있다.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델의 답변은 참조 답변의 기본 아이디어를 따르지 않으며, 구체적인 내용을 비슷하게 제시하지 않는다.\"},\"average_score\":5.2}",
+                "refusal": null,
+                "role": "assistant",
+                "audio": null,
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 질문에 대한 기초적인 내용을 다루고 있지만, 자세하게 설명하거나 질문의 모든 측면을 포함하고 있지는 않다."
+                    },
+                    "accuracy": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 사실과 다소 어긋나 있으며, 온도 변화의 생리학적 원리를 잘 설명하지 못한다."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 두 가지 상황을 다루지만, 각 상황에 대한 깊이 있는 설명이 부족하여 완전하지 않다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 비교적 이해하기 쉽지만, 설명이 불완전하여 일부 명확성이 떨어질 수 있다."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 참조 답변의 기본 아이디어를 따르지 않으며, 구체적인 내용을 비슷하게 제시하지 않는다."
+                    },
+                    "average_score": 5.2
+                }
+            }
+        }
+    ],
+    "created": 1735818711,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_0aa8d3e20b",
+    "usage": {
+        "completion_tokens": 223,
+        "prompt_tokens": 919,
+        "total_tokens": 1142,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    }
+}

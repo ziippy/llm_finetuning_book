@@ -1,0 +1,61 @@
+{
+    "id": "chatcmpl-AlE1vID47petAvpTSA5J7oVhS3TvL",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":6,\"explanation\":\"모델의 답변은 질문에 대한 기본적인 정보를 제공하지만, 평생 수입의 추정치에 대한 구체적인 분석이 결여되어 있다.\"},\"accuracy\":{\"score\":5,\"explanation\":\"모델은 최저임금에 대한 언급과 연봉 범위를 제시했지만, 참고 답변의 구체적인 계산 및 인플레이션 고려가 부족하다.\"},\"completeness\":{\"score\":4,\"explanation\":\"모델의 답변은 다양한 요소를 언급했지만, 질문에서 중요한 초기 연봉과 향후 증가에 대한 구체적 계산이 없다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 일반적으로 이해하기 쉬우나, 특정 세부 정보가 부족하여 응답의 전체적인 흐름이 다소 흐릿하다.\"},\"similarity\":{\"score\":3,\"explanation\":\"모델의 답변은 참조 답변과 근본적인 내용이 다르며, 구체적인 수치나 계산 내용이 부족하다.\"},\"average_score\":5.0}",
+                "refusal": null,
+                "role": "assistant",
+                "audio": null,
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 질문에 대한 기본적인 정보를 제공하지만, 평생 수입의 추정치에 대한 구체적인 분석이 결여되어 있다."
+                    },
+                    "accuracy": {
+                        "score": 5,
+                        "explanation": "모델은 최저임금에 대한 언급과 연봉 범위를 제시했지만, 참고 답변의 구체적인 계산 및 인플레이션 고려가 부족하다."
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 다양한 요소를 언급했지만, 질문에서 중요한 초기 연봉과 향후 증가에 대한 구체적 계산이 없다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 일반적으로 이해하기 쉬우나, 특정 세부 정보가 부족하여 응답의 전체적인 흐름이 다소 흐릿하다."
+                    },
+                    "similarity": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 참조 답변과 근본적인 내용이 다르며, 구체적인 수치나 계산 내용이 부족하다."
+                    },
+                    "average_score": 5.0
+                }
+            }
+        }
+    ],
+    "created": 1735818711,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_0aa8d3e20b",
+    "usage": {
+        "completion_tokens": 238,
+        "prompt_tokens": 1220,
+        "total_tokens": 1458,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    }
+}

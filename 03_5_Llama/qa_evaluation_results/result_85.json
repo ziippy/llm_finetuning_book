@@ -1,0 +1,61 @@
+{
+    "id": "chatcmpl-AlE1v3j7knP2VvgEgqLBTF4MwWGGf",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":3,\"explanation\":\"모델의 답변은 군대에서 사용하는 무전기에 대한 정보이지만, 질문에서 언급된 현재 주파수 무전기와 주어진 참조 답변의 무전기와는 관련이 적습니다.\"},\"accuracy\":{\"score\":2,\"explanation\":\"모델이 언급한 무전기 '아이리버20'는 존재하지 않는 정보이며, 실제로 군대에서 제공하는 정보와 차이가 큽니다.\"},\"completeness\":{\"score\":3,\"explanation\":\"모델의 답변은 무전기 기능이나 기술 진보에 대한 설명이 부족하여 질문의 완전한 요청에 응답하지 않았습니다.\"},\"clarity\":{\"score\":4,\"explanation\":\"모델의 답변은 일부 명료하지만, 사용하는 기술과 기능에 대한 정보가 혼란을 주는 부분이 많습니다.\"},\"similarity\":{\"score\":2,\"explanation\":\"모델의 답변은 참조 답변과 내용이 전혀 다르며 언급된 정보가 상이하여 유사성이 낮습니다.\"},\"average_score\":2.8}",
+                "refusal": null,
+                "role": "assistant",
+                "audio": null,
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 군대에서 사용하는 무전기에 대한 정보이지만, 질문에서 언급된 현재 주파수 무전기와 주어진 참조 답변의 무전기와는 관련이 적습니다."
+                    },
+                    "accuracy": {
+                        "score": 2,
+                        "explanation": "모델이 언급한 무전기 '아이리버20'는 존재하지 않는 정보이며, 실제로 군대에서 제공하는 정보와 차이가 큽니다."
+                    },
+                    "completeness": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 무전기 기능이나 기술 진보에 대한 설명이 부족하여 질문의 완전한 요청에 응답하지 않았습니다."
+                    },
+                    "clarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 일부 명료하지만, 사용하는 기술과 기능에 대한 정보가 혼란을 주는 부분이 많습니다."
+                    },
+                    "similarity": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 참조 답변과 내용이 전혀 다르며 언급된 정보가 상이하여 유사성이 낮습니다."
+                    },
+                    "average_score": 2.8
+                }
+            }
+        }
+    ],
+    "created": 1735818711,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_0aa8d3e20b",
+    "usage": {
+        "completion_tokens": 243,
+        "prompt_tokens": 707,
+        "total_tokens": 950,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    }
+}

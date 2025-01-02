@@ -1,0 +1,61 @@
+{
+    "id": "chatcmpl-AlE1vHZTleTrKJ7ahLnETlsOCrySn",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":3,\"explanation\":\"모델의 답변은 질문에 대한 관련성을 낮게 평가받습니다. 대변 처리가 아닌 인체 내부 대변의 경로에 대한 설명이 주로 포함되어 있습니다.\"},\"accuracy\":{\"score\":2,\"explanation\":\"모델이 제공한 정보는 여러 점에서 정확하지 않습니다. 대변이 생성되고 배출되는 과정을 잘못 설명하고 있습니다.\"},\"completeness\":{\"score\":3,\"explanation\":\"모델의 답변은 불완전하며 대변 처리에 대한 구체적인 내용을 담고 있지 않습니다. 참조 답변에서 다루는 주요 처리 과정이 누락되어 있습니다.\"},\"clarity\":{\"score\":4,\"explanation\":\"모델의 답변은 구조적으로 혼란스러워 명확하지 않으며 이해하기 어렵습니다. 병리학적 용어 사용이나 설명이 모호합니다.\"},\"similarity\":{\"score\":2,\"explanation\":\"모델의 답변은 참조 답변과 유사성이 낮습니다. 전반적인 내용과 흐름이 크게 다르며, 처리 과정에 대한 정보가 부족합니다.\"},\"average_score\":2.8}",
+                "refusal": null,
+                "role": "assistant",
+                "audio": null,
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 질문에 대한 관련성을 낮게 평가받습니다. 대변 처리가 아닌 인체 내부 대변의 경로에 대한 설명이 주로 포함되어 있습니다."
+                    },
+                    "accuracy": {
+                        "score": 2,
+                        "explanation": "모델이 제공한 정보는 여러 점에서 정확하지 않습니다. 대변이 생성되고 배출되는 과정을 잘못 설명하고 있습니다."
+                    },
+                    "completeness": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 불완전하며 대변 처리에 대한 구체적인 내용을 담고 있지 않습니다. 참조 답변에서 다루는 주요 처리 과정이 누락되어 있습니다."
+                    },
+                    "clarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 구조적으로 혼란스러워 명확하지 않으며 이해하기 어렵습니다. 병리학적 용어 사용이나 설명이 모호합니다."
+                    },
+                    "similarity": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 참조 답변과 유사성이 낮습니다. 전반적인 내용과 흐름이 크게 다르며, 처리 과정에 대한 정보가 부족합니다."
+                    },
+                    "average_score": 2.8
+                }
+            }
+        }
+    ],
+    "created": 1735818711,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_0aa8d3e20b",
+    "usage": {
+        "completion_tokens": 252,
+        "prompt_tokens": 790,
+        "total_tokens": 1042,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    }
+}

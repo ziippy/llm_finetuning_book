@@ -1,0 +1,61 @@
+{
+    "id": "chatcmpl-AlE1uyO14prAWcFfwLnHQSZqbsM8w",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":4,\"explanation\":\"모델의 답변은 충분히 관련성이 있지만, 질문에서 요구하는 '하루에 얼마나 자야 하는지'에 대한 구체적인 정보가 부족하다.\"},\"accuracy\":{\"score\":4,\"explanation\":\"모델의 답변에는 잘못된 정보가 포함되어 있으며, 수면량에 대한 정확한 권장치가 주어지지 않았다.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델의 답변은 관련된 여러 방법을 제시하지만, 구체적인 수면 시간 추천이나 과학적인 근거가 부족하다.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 답변은 여러 가지 정보를 제시하지만 흐름이 약간 어색해 이해하기 어려운 부분이 존재한다.\"},\"similarity\":{\"score\":3,\"explanation\":\"모델의 답변이 참조 답변과 유사한 부분이 있지만, 핵심적인 정보가 틀리거나 잘못된 내용을 포함하고 있다.\"},\"average_score\":4.4}",
+                "refusal": null,
+                "role": "assistant",
+                "audio": null,
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 충분히 관련성이 있지만, 질문에서 요구하는 '하루에 얼마나 자야 하는지'에 대한 구체적인 정보가 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 4,
+                        "explanation": "모델의 답변에는 잘못된 정보가 포함되어 있으며, 수면량에 대한 정확한 권장치가 주어지지 않았다."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 관련된 여러 방법을 제시하지만, 구체적인 수면 시간 추천이나 과학적인 근거가 부족하다."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 여러 가지 정보를 제시하지만 흐름이 약간 어색해 이해하기 어려운 부분이 존재한다."
+                    },
+                    "similarity": {
+                        "score": 3,
+                        "explanation": "모델의 답변이 참조 답변과 유사한 부분이 있지만, 핵심적인 정보가 틀리거나 잘못된 내용을 포함하고 있다."
+                    },
+                    "average_score": 4.4
+                }
+            }
+        }
+    ],
+    "created": 1735818710,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_0aa8d3e20b",
+    "usage": {
+        "completion_tokens": 228,
+        "prompt_tokens": 1024,
+        "total_tokens": 1252,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "id": "chatcmpl-AlE1srZglRttexDAvCwNQ7aPRWivF",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\n  \"relevance\": {\n    \"score\": 5,\n    \"explanation\": \"모델의 답변은 유네스코 총회와 추천인물에 관한 정보를 포함하고 있지만, 세계문화유산 지정 과정에 대한 질문과 직접적인 관련성이 떨어진다.\"\n  },\n  \"accuracy\": {\n    \"score\": 4,\n    \"explanation\": \"모델의 답변은 과정을 잘못 설명하고 있으며, 정확한 지정 과정이나 관련 기관에 대한 정보가 부족하다.\"\n  },\n  \"completeness\": {\n    \"score\": 3,\n    \"explanation\": \"모델의 답변은 핵심적인 절차를 생략하고 있으며, 세계문화유산 지정의 전반적인 과정에 대한 설명이 부족하다.\"\n  },\n  \"clarity\": {\n    \"score\": 6,\n    \"explanation\": \"모델의 답변은 비교적 이해하기 쉽지만, 내용이 불완전하여 전반적인 이해에 방해가 된다.\"\n  },\n  \"similarity\": {\n    \"score\": 2,\n    \"explanation\": \"모델의 답변은 참조 답변과 유사점이 거의 없고, 핵심 내용이나 절차 설명이 부족하다.\"\n  },\n  \"average_score\": 4\n}",
+                "refusal": null,
+                "role": "assistant",
+                "audio": null,
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 유네스코 총회와 추천인물에 관한 정보를 포함하고 있지만, 세계문화유산 지정 과정에 대한 질문과 직접적인 관련성이 떨어진다."
+                    },
+                    "accuracy": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 과정을 잘못 설명하고 있으며, 정확한 지정 과정이나 관련 기관에 대한 정보가 부족하다."
+                    },
+                    "completeness": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 핵심적인 절차를 생략하고 있으며, 세계문화유산 지정의 전반적인 과정에 대한 설명이 부족하다."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 비교적 이해하기 쉽지만, 내용이 불완전하여 전반적인 이해에 방해가 된다."
+                    },
+                    "similarity": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 참조 답변과 유사점이 거의 없고, 핵심 내용이나 절차 설명이 부족하다."
+                    },
+                    "average_score": 4.0
+                }
+            }
+        }
+    ],
+    "created": 1735818708,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_0aa8d3e20b",
+    "usage": {
+        "completion_tokens": 278,
+        "prompt_tokens": 863,
+        "total_tokens": 1141,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    }
+}

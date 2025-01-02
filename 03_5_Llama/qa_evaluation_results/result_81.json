@@ -1,0 +1,61 @@
+{
+    "id": "chatcmpl-AlE1vn3noCl4OUgzSU5BH0CiINpt8",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":3,\"explanation\":\"모델의 답변은 질문에 대한 정확한 정보 제공보다는 잘못된 정보(치마와 관련된 내용 등)에 집중하고 있어 관련성이 낮다.\"},\"accuracy\":{\"score\":2,\"explanation\":\"모델이 제공한 정보는 주케토와 비레타와 관련된 정확한 정보를 포함하지 않고 있어 매우 부정확하다.\"},\"completeness\":{\"score\":3,\"explanation\":\"모델의 답변은 모자의 종류와 그 사용 이유에 대한 정보를 포함하지 않아 완전성이 떨어진다.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 답변은 문장이 다소 길어 이해하는 데 시간이 걸리지만, 문법적으로는 괜찮아서 점수를 줌.\"},\"similarity\":{\"score\":2,\"explanation\":\"모델의 답변은 참조 답변과 다른 내용을 제시하고 있어 유사성이 매우 낮다.\"},\"average_score\":3.2}",
+                "refusal": null,
+                "role": "assistant",
+                "audio": null,
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 질문에 대한 정확한 정보 제공보다는 잘못된 정보(치마와 관련된 내용 등)에 집중하고 있어 관련성이 낮다."
+                    },
+                    "accuracy": {
+                        "score": 2,
+                        "explanation": "모델이 제공한 정보는 주케토와 비레타와 관련된 정확한 정보를 포함하지 않고 있어 매우 부정확하다."
+                    },
+                    "completeness": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 모자의 종류와 그 사용 이유에 대한 정보를 포함하지 않아 완전성이 떨어진다."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 문장이 다소 길어 이해하는 데 시간이 걸리지만, 문법적으로는 괜찮아서 점수를 줌."
+                    },
+                    "similarity": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 참조 답변과 다른 내용을 제시하고 있어 유사성이 매우 낮다."
+                    },
+                    "average_score": 3.2
+                }
+            }
+        }
+    ],
+    "created": 1735818711,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_0aa8d3e20b",
+    "usage": {
+        "completion_tokens": 213,
+        "prompt_tokens": 817,
+        "total_tokens": 1030,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    }
+}

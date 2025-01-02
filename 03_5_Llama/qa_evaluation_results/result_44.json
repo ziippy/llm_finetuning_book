@@ -1,0 +1,61 @@
+{
+    "id": "chatcmpl-AlE1spfyxSPYdUFtDFaPPDr0ZIhzF",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 질문의 핵심인 뚜껑과 순간접착제의 특성 간의 관계를 잘 설명하고 있으며, 대체로 관련 있습니다.\"},\"accuracy\":{\"score\":7,\"explanation\":\"모델의 설명은 접착제의 작동 원리에 대한 일부 정확한 요소를 포함하고 있지만, 참조 답변에서 언급된 '휘발성' 요인을 포함하지 않아 정보가 다소 부족합니다.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델의 답변은 부분적으로 정보를 제공하지만, 참조 답변처럼 다양한 관련 요소(예: 뚜껑 재질의 영향 등)를 포함하지 않아 포괄성이 부족합니다.\"},\"clarity\":{\"score\":9,\"explanation\":\"모델의 답변은 간결하고 이해하기 쉽게 작성되어 있으며, 특히 간단한 설명이 도움이 됩니다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 주제가 유사하지만, 명확한 내용과 구조에서 점점 차이가 났습니다. 특히 접착 원리의 설명이 다릅니다.\"},\"average_score\":7.0}",
+                "refusal": null,
+                "role": "assistant",
+                "audio": null,
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 질문의 핵심인 뚜껑과 순간접착제의 특성 간의 관계를 잘 설명하고 있으며, 대체로 관련 있습니다."
+                    },
+                    "accuracy": {
+                        "score": 7,
+                        "explanation": "모델의 설명은 접착제의 작동 원리에 대한 일부 정확한 요소를 포함하고 있지만, 참조 답변에서 언급된 '휘발성' 요인을 포함하지 않아 정보가 다소 부족합니다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 부분적으로 정보를 제공하지만, 참조 답변처럼 다양한 관련 요소(예: 뚜껑 재질의 영향 등)를 포함하지 않아 포괄성이 부족합니다."
+                    },
+                    "clarity": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 간결하고 이해하기 쉽게 작성되어 있으며, 특히 간단한 설명이 도움이 됩니다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 주제가 유사하지만, 명확한 내용과 구조에서 점점 차이가 났습니다. 특히 접착 원리의 설명이 다릅니다."
+                    },
+                    "average_score": 7.0
+                }
+            }
+        }
+    ],
+    "created": 1735818708,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_0aa8d3e20b",
+    "usage": {
+        "completion_tokens": 259,
+        "prompt_tokens": 761,
+        "total_tokens": 1020,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    }
+}

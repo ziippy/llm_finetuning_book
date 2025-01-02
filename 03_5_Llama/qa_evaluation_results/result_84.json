@@ -1,0 +1,61 @@
+{
+    "id": "chatcmpl-AlE1viBbdgrpAJKMU9fJvwhdZSB28",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":5,\"explanation\":\"모델의 답변은 사진 속 물체에 대한 설명을 하고 있으나, 질문의 맥락에서 벗어난 부분이 있어 다소 관련성이 낮음.\"},\"accuracy\":{\"score\":3,\"explanation\":\"모델의 답변은 잘못된 정보를 포함하고 있으며, 특히 스타일러스사와 무선 전화 안테나에 대한 설명이 질문의 사진 물체와 일치하지 않음.\"},\"completeness\":{\"score\":4,\"explanation\":\"모델의 답변은 기능에 대한 설명이 포함되어 있지만, 질문의 핵심 물체에 대한 정확한 설명이 부족하여 완전성이 떨어짐.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 답변은 전반적으로 이해하기 쉬운 언어로 작성되어 있으나, 내용의 정확성이 부족하여 이해도를 저해할 수 있음.\"},\"similarity\":{\"score\":2,\"explanation\":\"모델의 답변은 참조 답변과 주제에 대한 접근 방식이 다르며, 필수적인 정보를 잘못 파악하고 있어 유사성이 매우 낮음.\"},\"average_score\":4}",
+                "refusal": null,
+                "role": "assistant",
+                "audio": null,
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 사진 속 물체에 대한 설명을 하고 있으나, 질문의 맥락에서 벗어난 부분이 있어 다소 관련성이 낮음."
+                    },
+                    "accuracy": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 잘못된 정보를 포함하고 있으며, 특히 스타일러스사와 무선 전화 안테나에 대한 설명이 질문의 사진 물체와 일치하지 않음."
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 기능에 대한 설명이 포함되어 있지만, 질문의 핵심 물체에 대한 정확한 설명이 부족하여 완전성이 떨어짐."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 전반적으로 이해하기 쉬운 언어로 작성되어 있으나, 내용의 정확성이 부족하여 이해도를 저해할 수 있음."
+                    },
+                    "similarity": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 참조 답변과 주제에 대한 접근 방식이 다르며, 필수적인 정보를 잘못 파악하고 있어 유사성이 매우 낮음."
+                    },
+                    "average_score": 4.0
+                }
+            }
+        }
+    ],
+    "created": 1735818711,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_0aa8d3e20b",
+    "usage": {
+        "completion_tokens": 249,
+        "prompt_tokens": 576,
+        "total_tokens": 825,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    }
+}

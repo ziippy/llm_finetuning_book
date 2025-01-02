@@ -1,0 +1,61 @@
+{
+    "id": "chatcmpl-AlE1q1uAxM5BLwvCq4theGyR9y7Wd",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":4,\"explanation\":\"모델의 답변은 장락문의 홈에 대한 원인을 잘 설명하지 않고, 장락문과 관련된 정보에서 벗어나 궁궐의 기후와 황태자 건강 문제에 대해 언급하고 있다.\"},\"accuracy\":{\"score\":3,\"explanation\":\"모델의 답변은 창덕궁 장락문의 홈에 대한 역사적 사실과 관련성이 떨어지며, 정확한 원인에 대한 설명이 부정확하다.\"},\"completeness\":{\"score\":4,\"explanation\":\"모델의 답변은 장락문의 홈이 created 된 이유를 설명하지만, 관련된 정보가 부족하고 그 개념이 확장되어 설명되지 않는다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 언어적으로 다소 명확하지만, 본래의 질문과 관련이 없는 내용이 포함되어 있어 혼란을 줄 수 있다.\"},\"similarity\":{\"score\":3,\"explanation\":\"모델의 답변은 참조 답변과 주제와 내용에서 크게 다르며, 장락문의 홈에 대한 설명도 정확한 역사적 내용을 반영하지 않는다.\"},\"average_score\":4.2}",
+                "refusal": null,
+                "role": "assistant",
+                "audio": null,
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 장락문의 홈에 대한 원인을 잘 설명하지 않고, 장락문과 관련된 정보에서 벗어나 궁궐의 기후와 황태자 건강 문제에 대해 언급하고 있다."
+                    },
+                    "accuracy": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 창덕궁 장락문의 홈에 대한 역사적 사실과 관련성이 떨어지며, 정확한 원인에 대한 설명이 부정확하다."
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 장락문의 홈이 created 된 이유를 설명하지만, 관련된 정보가 부족하고 그 개념이 확장되어 설명되지 않는다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 언어적으로 다소 명확하지만, 본래의 질문과 관련이 없는 내용이 포함되어 있어 혼란을 줄 수 있다."
+                    },
+                    "similarity": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 참조 답변과 주제와 내용에서 크게 다르며, 장락문의 홈에 대한 설명도 정확한 역사적 내용을 반영하지 않는다."
+                    },
+                    "average_score": 4.2
+                }
+            }
+        }
+    ],
+    "created": 1735818706,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_0aa8d3e20b",
+    "usage": {
+        "completion_tokens": 261,
+        "prompt_tokens": 830,
+        "total_tokens": 1091,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "id": "chatcmpl-AlE1qHsgjvxenK70OC4uHu3rhEgu9",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":6,\"explanation\":\"모델의 답변은 톱밥에 꽃게를 담는 이유에 대해 동면 및 생명 유지와 관련된 내용을 다루고 있으나, 참조 답변에 비해 동면 상태에 대한 설명이 부족하다.\"},\"accuracy\":{\"score\":5,\"explanation\":\"모델의 답변은 일부 내용이 사실적이지 않거나 혼동을 초래할 수 있으며, 꽃게가 톱밥에 담기는 주된 이유인 동면 상태 유지에 대한 정확한 설명이 부족하다.\"},\"completeness\":{\"score\":4,\"explanation\":\"모델의 답변은 톱밥에 담는 이유를 설명하고 있으나, 꽃게의 생리적 특성과 동면 상태 유지 원리에 대한 충분한 정보를 포함하지 않는다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 비교적 명확하지만, 전문 용어와 개념이 사용되어 다소 혼란을 초래할 수 있다.\"},\"similarity\":{\"score\":3,\"explanation\":\"모델의 답변은 참조 답변과 크게 다소 구성이 다르고 중점적으로 다루는 내용이 차이 나기 때문에 유사성이 낮다.\"},\"average_score\":5.0}",
+                "refusal": null,
+                "role": "assistant",
+                "audio": null,
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 톱밥에 꽃게를 담는 이유에 대해 동면 및 생명 유지와 관련된 내용을 다루고 있으나, 참조 답변에 비해 동면 상태에 대한 설명이 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 일부 내용이 사실적이지 않거나 혼동을 초래할 수 있으며, 꽃게가 톱밥에 담기는 주된 이유인 동면 상태 유지에 대한 정확한 설명이 부족하다."
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 톱밥에 담는 이유를 설명하고 있으나, 꽃게의 생리적 특성과 동면 상태 유지 원리에 대한 충분한 정보를 포함하지 않는다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 비교적 명확하지만, 전문 용어와 개념이 사용되어 다소 혼란을 초래할 수 있다."
+                    },
+                    "similarity": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 참조 답변과 크게 다소 구성이 다르고 중점적으로 다루는 내용이 차이 나기 때문에 유사성이 낮다."
+                    },
+                    "average_score": 5.0
+                }
+            }
+        }
+    ],
+    "created": 1735818706,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_0aa8d3e20b",
+    "usage": {
+        "completion_tokens": 277,
+        "prompt_tokens": 763,
+        "total_tokens": 1040,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    }
+}

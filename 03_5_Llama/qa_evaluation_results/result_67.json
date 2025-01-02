@@ -1,0 +1,61 @@
+{
+    "id": "chatcmpl-AlE1tiwusFHRYg2KG6NkY2R1ftWNX",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 가리비 내장에 대한 언급과 먹는 것에 대한 조언을 포함하여 질문에 잘 관련되어 있으나, 일부 내용은 질문과의 직접적인 관련성이 낮다.\"},\"accuracy\":{\"score\":7,\"explanation\":\"모델이 제공한 정보는 가리비 내장 여부에 대한 해석이 다소 틀릴 수 있으며, 내장과 외부에 대해 정확한 정보를 전달하지 못하고 있다.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델은 가리비 내장에 대한 정보를 제공하지만, 생리나 조리 방법에 대한 포괄적인 설명이 부족하여 다소 불완전하다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 기본적으로 이해하기 쉽지만, 일부 표현들이 다소 애매하거나 혼동을 줄 수 있다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 참조 응답과 내용적으로 유사한 점이 있으나, 전반적인 내용 구성과 세부사항에 차이가 있다.\"},\"average_score\":6.6}",
+                "refusal": null,
+                "role": "assistant",
+                "audio": null,
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 가리비 내장에 대한 언급과 먹는 것에 대한 조언을 포함하여 질문에 잘 관련되어 있으나, 일부 내용은 질문과의 직접적인 관련성이 낮다."
+                    },
+                    "accuracy": {
+                        "score": 7,
+                        "explanation": "모델이 제공한 정보는 가리비 내장 여부에 대한 해석이 다소 틀릴 수 있으며, 내장과 외부에 대해 정확한 정보를 전달하지 못하고 있다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델은 가리비 내장에 대한 정보를 제공하지만, 생리나 조리 방법에 대한 포괄적인 설명이 부족하여 다소 불완전하다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 기본적으로 이해하기 쉽지만, 일부 표현들이 다소 애매하거나 혼동을 줄 수 있다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 참조 응답과 내용적으로 유사한 점이 있으나, 전반적인 내용 구성과 세부사항에 차이가 있다."
+                    },
+                    "average_score": 6.6
+                }
+            }
+        }
+    ],
+    "created": 1735818709,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_0aa8d3e20b",
+    "usage": {
+        "completion_tokens": 253,
+        "prompt_tokens": 721,
+        "total_tokens": 974,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    }
+}

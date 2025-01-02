@@ -1,0 +1,61 @@
+{
+    "id": "chatcmpl-AlE1qrRFos01MoDcmBLPhxJeqR8aj",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":6,\"explanation\":\"모델의 답변은 '애드벌룬성 발언'의 어원과 역사적 맥락을 제공하지만, 질문의 핵심인 발언의 의미 설명에는 미흡하다.\"},\"accuracy\":{\"score\":4,\"explanation\":\"모델의 답변은 정확하지 않으며, '애드벌룬성 발언'의 의미를 잘못해석하여 과시적인 요소를 긍정적인 방향으로 설명하고 있다.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델의 답변이 발언의 역사적 배경을 제공하지만, 발언의 비꼬는 의미나 과시적인 요소에 대한 설명이 부족하다.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 답변은 구조적으로 구분되어 있으나, 의미 전달이 불분명하여 헷갈릴 소지가 있다.\"},\"similarity\":{\"score\":3,\"explanation\":\"모델의 답변은 참조 답변과 주제는 같으나, 내용과 설명이 대부분 상반되어 유사성이 낮다.\"},\"average_score\":4.8}",
+                "refusal": null,
+                "role": "assistant",
+                "audio": null,
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 '애드벌룬성 발언'의 어원과 역사적 맥락을 제공하지만, 질문의 핵심인 발언의 의미 설명에는 미흡하다."
+                    },
+                    "accuracy": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 정확하지 않으며, '애드벌룬성 발언'의 의미를 잘못해석하여 과시적인 요소를 긍정적인 방향으로 설명하고 있다."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델의 답변이 발언의 역사적 배경을 제공하지만, 발언의 비꼬는 의미나 과시적인 요소에 대한 설명이 부족하다."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 구조적으로 구분되어 있으나, 의미 전달이 불분명하여 헷갈릴 소지가 있다."
+                    },
+                    "similarity": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 참조 답변과 주제는 같으나, 내용과 설명이 대부분 상반되어 유사성이 낮다."
+                    },
+                    "average_score": 4.8
+                }
+            }
+        }
+    ],
+    "created": 1735818706,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_0aa8d3e20b",
+    "usage": {
+        "completion_tokens": 250,
+        "prompt_tokens": 620,
+        "total_tokens": 870,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    }
+}

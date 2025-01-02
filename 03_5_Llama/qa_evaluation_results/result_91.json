@@ -1,0 +1,61 @@
+{
+    "id": "chatcmpl-AlE1vIVkP2JLP1RTerlMwr9JzakL4",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":7,\"explanation\":\"모델의 답변은 질문에 대한 관련 정보를 제공하지만, 일부 음식에 대한 설명이 недоступный하거나 부적절하다.\"},\"accuracy\":{\"score\":5,\"explanation\":\"모델의 답변은 정확하지 않은 정보가 포함되어 있으며, 참조 답변과 상충하는 부분이 있다.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델은 여러 음식에 대한 답변을 제공했지만, 질문에서 요청한 내용의 모든 측면을 충분히 다루지 않았다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 언어는 비교적 명확하지만, 일부 설명은 혼란스러울 수 있다.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델의 답변은 참조 답변과 상당히 다르며, 이해 방식이나 정보의 정확성에서 차이를 보인다.\"},\"average_score\":6.0}",
+                "refusal": null,
+                "role": "assistant",
+                "audio": null,
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 질문에 대한 관련 정보를 제공하지만, 일부 음식에 대한 설명이 недоступный하거나 부적절하다."
+                    },
+                    "accuracy": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 정확하지 않은 정보가 포함되어 있으며, 참조 답변과 상충하는 부분이 있다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델은 여러 음식에 대한 답변을 제공했지만, 질문에서 요청한 내용의 모든 측면을 충분히 다루지 않았다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 언어는 비교적 명확하지만, 일부 설명은 혼란스러울 수 있다."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 참조 답변과 상당히 다르며, 이해 방식이나 정보의 정확성에서 차이를 보인다."
+                    },
+                    "average_score": 6.0
+                }
+            }
+        }
+    ],
+    "created": 1735818711,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_0aa8d3e20b",
+    "usage": {
+        "completion_tokens": 204,
+        "prompt_tokens": 1175,
+        "total_tokens": 1379,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    }
+}

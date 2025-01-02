@@ -1,0 +1,61 @@
+{
+    "id": "chatcmpl-AlE1qDQfGokkmsGhnCgMGLhn85XJE",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":6,\"explanation\":\"모델의 답변은 'God bless you'의 사용에 대한 역사적 배경을 다루고 있지만, 해당 표현의 기원이나 이유와는 다소 일치하지 않는다.\"},\"accuracy\":{\"score\":4,\"explanation\":\"모델의 설명은 잘못된 정보가 포함되어 있으며, 'recon'이라는 스페인어 단어와의 관련성은 확인되지 않는다.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델의 답변이 일부 정보는 포함하고 있으나, 재채기와 관련된 전통적 믿음이나 그 기원에 대한 설명이 부족하다.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 답변은 전반적으로 이해할 수 있으나, 일부 문장이 복잡하여 독자가 내용을 이해하는 데 어려움을 겪을 수 있다.\"},\"similarity\":{\"score\":3,\"explanation\":\"모델의 답변은 참조 답변과 주제가 다르며, 전반적인 주제와 기초 개념이 일치하지 않는다.\"},\"average_score\":4.8}",
+                "refusal": null,
+                "role": "assistant",
+                "audio": null,
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 'God bless you'의 사용에 대한 역사적 배경을 다루고 있지만, 해당 표현의 기원이나 이유와는 다소 일치하지 않는다."
+                    },
+                    "accuracy": {
+                        "score": 4,
+                        "explanation": "모델의 설명은 잘못된 정보가 포함되어 있으며, 'recon'이라는 스페인어 단어와의 관련성은 확인되지 않는다."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델의 답변이 일부 정보는 포함하고 있으나, 재채기와 관련된 전통적 믿음이나 그 기원에 대한 설명이 부족하다."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 전반적으로 이해할 수 있으나, 일부 문장이 복잡하여 독자가 내용을 이해하는 데 어려움을 겪을 수 있다."
+                    },
+                    "similarity": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 참조 답변과 주제가 다르며, 전반적인 주제와 기초 개념이 일치하지 않는다."
+                    },
+                    "average_score": 4.8
+                }
+            }
+        }
+    ],
+    "created": 1735818706,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_0aa8d3e20b",
+    "usage": {
+        "completion_tokens": 243,
+        "prompt_tokens": 634,
+        "total_tokens": 877,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    }
+}

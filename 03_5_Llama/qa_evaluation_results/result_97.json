@@ -1,0 +1,61 @@
+{
+    "id": "chatcmpl-AlE1vSzVlOeTrQlOBXXE9HUDLhOjK",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":9,\"explanation\":\"모델의 답변은 질문에서 요구하는 비타민 복용으로 인한 알러지 증상에 대한 정보를 포괄적으로 다루고 있다.\"},\"accuracy\":{\"score\":7,\"explanation\":\"모델의 답변은 알러지 증상과 비타민 결핍 증상을 혼동하여 제시하였고, 충분히 정확하지 않았다.\"},\"completeness\":{\"score\":8,\"explanation\":\"모델은 비타민 복용으로 인한 여러 알러지 증상을 언급했지만, 기초적인 정보가 일부 부족했다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 여러 증상이 나열되어 다소 복잡하게 느껴질 수 있어 다소 명확하지 않았다.\"},\"similarity\":{\"score\":6,\"explanation\":\"모델의 답변은 참조 답변과 유사한 주제를 다루고 있지만, 내용 구성이 복잡하고 조금 혼용되기도 하여 유사성이 부족하다.\"},\"average_score\":7.4}",
+                "refusal": null,
+                "role": "assistant",
+                "audio": null,
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 질문에서 요구하는 비타민 복용으로 인한 알러지 증상에 대한 정보를 포괄적으로 다루고 있다."
+                    },
+                    "accuracy": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 알러지 증상과 비타민 결핍 증상을 혼동하여 제시하였고, 충분히 정확하지 않았다."
+                    },
+                    "completeness": {
+                        "score": 8,
+                        "explanation": "모델은 비타민 복용으로 인한 여러 알러지 증상을 언급했지만, 기초적인 정보가 일부 부족했다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 여러 증상이 나열되어 다소 복잡하게 느껴질 수 있어 다소 명확하지 않았다."
+                    },
+                    "similarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 참조 답변과 유사한 주제를 다루고 있지만, 내용 구성이 복잡하고 조금 혼용되기도 하여 유사성이 부족하다."
+                    },
+                    "average_score": 7.4
+                }
+            }
+        }
+    ],
+    "created": 1735818711,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_0aa8d3e20b",
+    "usage": {
+        "completion_tokens": 234,
+        "prompt_tokens": 866,
+        "total_tokens": 1100,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    }
+}
