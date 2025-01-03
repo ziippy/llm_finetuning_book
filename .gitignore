@@ -2,3 +2,4 @@ content
 keywords_gemma_results
 03_5_Llama/llama-3.2-korean-3b-hf-20-epoch
 04_1_Gemma_LoRA/model_output
+04_2_QLoRA/code-llama-8b-text-to-sql
